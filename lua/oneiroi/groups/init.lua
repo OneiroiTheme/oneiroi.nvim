@@ -23,9 +23,9 @@ M.setup = function(palette, opts)
 	local groups = {
 		base = true,
 		terminal = false,
-		editor = false,
 		treesitter = true,
 		neotree = true,
+		bufferline = true,
 	}
 
 	if not opts.terminal_colors then --terminal
