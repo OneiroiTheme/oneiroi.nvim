@@ -4,12 +4,11 @@ local M = {}
 function M.get(c, opts)
 	local bg = opts.transparent and c.none or c.bg
 	local bgSB = opts.transparent and c.none or c.bg2
-	local bgSta = c.bg2
 	return {
-		NeoTreeNormal = { fg = c.fg, bg = bgSB },
+		NeoTreeNormal = { fg = c.primary_s, bg = bgSB },
 		NeoTreeNormalNC = "NeoTreeNormal",
 		NeoTreeCursorLine = { fg = c.primary_s, bg = bg, reverse = true },
-		NeoTreeRootName = { fg = c.primary, bg = bgSB, bold = true, italic = true },
+		NeoTreeRootName = { fg = c.primary, bold = true, italic = true },
 		NeoTreeDirectoryName = "Directory",
 		NeoTreeDirectoryIcon = "Directory",
 		NeoTreeFileIcon = "NeoTreeDirectoryIcon",
@@ -17,9 +16,15 @@ function M.get(c, opts)
 		NeoTreeFileNameOpened = { bold = true },
 		NeoTreeSymbolicLinkTarget = "comment",
 		NeoTreeTabActive = { fg = c.primary_s, bg = bg, reverse = true },
-		NeoTreeTabSeparatorActive = { fg = bgSta, bg = bgSta },
-		NeoTreeTabInactive = { fg = c.primary_s, bg = bgSta },
-		NeoTreeTabSeparatorInactive = "NeoTreeTabSeparatorActive",
+		NeoTreeTabSeparatorActive = "NeoTreeTabActive",
+		NeoTreeTabInactive = { fg = c.primary_s, bg = bgSB },
+		NeoTreeTabSeparatorInactive = "NeoTreeTabInactive",
+		NeoTreeFileStats = { fg = c.com_s },
+		NeoTreeMessage = "NeoTreeFileStats",
+		NeoTreeDimText = { fg = c.com_s },
+		NeoTreeFloatBorder = "DiagnosticInfo",
+		NeoTreeFloatTitle = "DiagnosticInfo",
+		NeoTreeTitleBar = "DiagnosticHint",
 		NeoTreeGitAdded = { fg = c.GitAdded },
 		NeoTreeGitDeleted = { fg = c.GitDeleted },
 		NeoTreeGitModified = { fg = c.GitModified },
