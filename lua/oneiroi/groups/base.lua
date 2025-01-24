@@ -20,7 +20,7 @@ function M.get(c, opts)
 		TermCursor = "Cursor",
 		TermCursorNC = {},
 		-- NonText = "NONE"
-		Directory = { fg = c.primary_s },
+		Directory = { fg = c.Directory },
 		ErrorMsg = "Err",
 		IncSearch = "CurSearch",
 		Search = { fg = search, bg = c.bg, reverse = true },
