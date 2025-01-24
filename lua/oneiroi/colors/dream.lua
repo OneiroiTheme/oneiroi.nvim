@@ -55,8 +55,8 @@ M.border = M.bg3
 M.muted = M.com
 M.muted_s = M.com_s
 
-M.diagInfo = M.inf
-M.diagHint = M.pur
+M.diagInfo = M.primary_s
+M.diagHint = M.secondary
 M.diagWarning = M.war
 M.diagSuccess = M.suc
 M.diagError = M.err
@@ -65,5 +65,22 @@ M.diffAdd = M.gre
 M.diffChange = M.yel
 M.diffDelete = M.red
 M.diffText = M.blu
+
+--oneiroi-file
+M.Directory = M.primary_s
+M.File = M.fg_s
+M.FileOpened = M.fg_s
+
+--oneiroi-git
+M.GitModified = M.yel
+M.GitStageModified = M.yel_s
+M.GitAdded = M.gre_s
+M.GitRenamed = M.gre_s
+M.GitDeleted = M.red
+M.GitStageDeleted = M.red_s
+M.GitConflicting = M.red
+M.GitIgnored = M.com
+M.GitUntracked = M.gre
+M.GitSubmodule = M.blu_s
 
 return M

@@ -61,3 +61,16 @@
 ---@field diffChange color
 ---@field diffDelete color
 ---@field diffText color
+---@field Directory color
+---@field File color
+---@field FileOpened color
+---@field GitModified color ---oneiroi-git
+---@field GitStageModified color
+---@field GitAdded color
+---@field GitRenamed color
+---@field GitDeleted color
+---@field GitStageDeleted color
+---@field GitConflicting color
+---@field GitIgnored color
+---@field GitUntracked color
+---@field GitSubmodule color

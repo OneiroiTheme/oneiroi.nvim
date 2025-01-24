@@ -25,6 +25,7 @@ M.setup = function(palette, opts)
 		terminal = false,
 		editor = false,
 		treesitter = true,
+		neotree = true,
 	}
 
 	if not opts.terminal_colors then --terminal
