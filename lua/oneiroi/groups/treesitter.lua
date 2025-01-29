@@ -17,7 +17,7 @@ function M.get(c, opts)
         ["@comment.todo"]               = { fg = c.diagInfo },
         ["@comment.warning"]            = { fg = c.diagWarning },
         ["@constant"]                   = "Constant",
-        -- ["@constant.builtin"]
+        ["@constant.builtin"]           = "@constant",
         ["@constant.macro"]             = "Define",
         ["@constructor"]                = "Special",
         -- ["@constructor.tsx"]
@@ -25,7 +25,7 @@ function M.get(c, opts)
         ["@diff.minus"]                 = "DiffDelete",
         ["@diff.plus"]                  = "DiffAdd",
         ["@function"]                   = "Function",
-        -- ["@function.builtin"]
+        ["@function.builtin"]           = "@function",
         ["@function.call"]              = "@function",
         ["@function.macro"]             = "Macro",
         ["@function.method"]            = "Function",
@@ -65,7 +65,7 @@ function M.get(c, opts)
         ["@markup.strong"]              = { bold = true },
         ["@markup.underline"]           = { underline = true },
         ["@module"]                     = "Include",
-        -- ["@module.builtin"]
+        ["@module.builtin"]             = "@module",
         -- ["@namespace.builtin"]
         ["@none"]                       = {},
         ["@number"]                     = "Number",
@@ -88,14 +88,14 @@ function M.get(c, opts)
         -- ["@tag.tsx"]
         -- ["@tag.javascript"]
         ["@type"]                       = "Type",
-        -- ["@type.builtin"]
+        ["@type.builtin"]               = "@type",
         ["@type.definition"]            = "Typedef",
         ["@type.qualifier"]             = "@keyword",
         ["@variable"]                   = "Identifier",
-        -- ["@variable.builtin"]
+        ["@variable.builtin"]           = "@variable",
         ["@variable.member"]            = "Proprety",
         ["@variable.parameter"]         = { fg = c.fg_s },
-        -- ["@variable.parameter.builtin"]
+        ["@variable.parameter.builtin"] = "@variable.parameter"
     }
     return ret
 end
