@@ -35,19 +35,20 @@ local M = {
     err_s = "#AA464A",
     inf = "#6A6FFF",
     inf_s = "#464AAA",
+
+    primary = "#FFAACA",
+    secondary = "#FFDFAA",
+    tertiary = "#AAFFDF",
+    quaternary = "#DFAAFF",
+    quinary = "#AACAFA",
+    senary = "#CAFFAA",
+    primary_s = "#B1768C",
+    secondary_s = "#B19B76",
+    tertiary_s = "#76B19B",
+    quaternary_s = "#9B76B1",
+    quinary_s = "#768CB1",
+    senary_s = "#8CBA76",
 }
-M.primary = M.red
-M.secondary = M.yel
-M.tertiary = M.aqu
-M.quaternary = M.pur
-M.quinary = M.blu
-M.senary = M.gre
-M.primary_s = M.red_s
-M.secondary_s = M.yel_s
-M.tertiary_s = M.aqu_s
-M.quaternary_s = M.pur_s
-M.quinary_s = M.blu_s
-M.senary_s = M.gre_s
 
 M.none = "NONE"
 M.cursor = M.primary
