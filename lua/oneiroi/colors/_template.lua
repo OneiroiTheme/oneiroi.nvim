@@ -35,19 +35,20 @@ local M = {
     err_s = "{{errs}}",
     inf = "{{inf}}",
     inf_s = "{{infs}}",
+
+    primary = "{{prim}}",
+    secondary = "{{seco}}",
+    tertiary = "{{tert}}",
+    quaternary = "{{quat}}",
+    quinary = "{{quin}}",
+    senary = "{{sena}}",
+    primary_s = "{{prims}}",
+    secondary_s = "{{secos}}",
+    tertiary_s = "{{terts}}",
+    quaternary_s = "{{quats}}",
+    quinary_s = "{{quins}}",
+    senary_s = "{{senas}}",
 }
-M.primary = M.red
-M.secondary = M.yel
-M.tertiary = M.aqu
-M.quaternary = M.pur
-M.quinary = M.blu
-M.senary = M.gre
-M.primary_s = M.red_s
-M.secondary_s = M.yel_s
-M.tertiary_s = M.aqu_s
-M.quaternary_s = M.pur_s
-M.quinary_s = M.blu_s
-M.senary_s = M.gre_s
 
 M.none = "NONE"
 M.cursor = M.primary
