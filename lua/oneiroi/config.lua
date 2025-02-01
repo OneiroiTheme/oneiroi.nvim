@@ -2,6 +2,15 @@ local M = {}
 
 M.version = "0.0.1"
 
+--TODO
+------@class oneiroi.transparent
+---local transDefault = {
+---	editor = false,
+---	sideBar = false,
+---	bufferLine = false,
+---	statusLine = false,
+---}
+
 ---@class oneiroi.config
 ---@field style oneiroi.style
 M.defaults = {
@@ -9,7 +18,6 @@ M.defaults = {
 	transparent = false,
 	italic_comments = false,
 	underline_links = false,
-	disable_nvimtree_bg = true,
 	terminal_colors = true,
 
 	-- custom highlights --
