@@ -40,14 +40,14 @@ local M = {
     secondary = "#FFDFAA",
     tertiary = "#AAFFDF",
     quaternary = "#DFAAFF",
-    quinary = "#AACAFA",
+    quinary = "#AACAFF",
     senary = "#CAFFAA",
     primary_s = "#B1768C",
     secondary_s = "#B19B76",
     tertiary_s = "#76B19B",
     quaternary_s = "#9B76B1",
     quinary_s = "#768CB1",
-    senary_s = "#8CBA76",
+    senary_s = "#8CB176",
 }
 
 M.none = "NONE"
