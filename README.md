@@ -3,7 +3,13 @@
 > A fantastic theme for `Neovim`.  
 
 <p align="center">
-  <img src="./doc/oneiroi.png" alt="Oneiroi Theme" width="70%" />
+  <img src="https://raw.githubusercontent.com/OneiroiTheme/oneiroi-theme/main/assets/oneiroi.png" alt="Oneiroi Theme" width="40%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/OneiroiTheme/oneiroi.nvim/stargazers"><img src="https://img.shields.io/github/stars/OneiroiTheme/oneiroi.nvim?style=flat-square&labelColor=343a41&color=ffacaa" alt='github stars'/></a>
+  <a href="https://github.com/OneiroiTheme/oneiroi.nvim/issues"><img src="https://img.shields.io/github/issues/OneiroiTheme/oneiroi.nvim?style=flat-square&labelColor=343a41&color=ffdfaa" alt='github issues'/></a>
+  <a href="https://github.com/OneiroiTheme/oneiroi.nvim/contributors"><img src="https://img.shields.io/github/contributors/OneiroiTheme/oneiroi.nvim?style=flat-square&labelColor=343a41&color=aaffdf" alt='github contributors'/></a>
 </p>
 
 ## Themes available
