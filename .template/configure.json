@@ -1,0 +1,10 @@
+{
+    "input": [
+        "/.template/template.lua",
+        "/.template/temp_colors.lua"
+    ],
+    "output": [
+        "/lua/{{theme}}/colors/{{plt}}.lua",
+        "/colors/{{theme}}-{{plt}}.lua"
+    ]
+}
